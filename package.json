@@ -17,6 +17,10 @@
   "author": "",
   "license": "ISC"
 }
+
+"engines": {
+    "node": "0.10.x"
+  },
   "repository": {
     "type": "git",
     "url": "https://git.heroku.com/intense-waters-33997.git"
