@@ -31,7 +31,7 @@ var db= require('./mongo.js');
 server.del('/places',function(req,res)
 
 {
-    console.log('DELETE/library');
+    console.log('DELETE/places');
     
     db.clear(dbResult=>
     {
@@ -114,4 +114,4 @@ server.listen(port, function (err) {
   } else {
     console.log('App is ready at : ' + port);
   }
-});
+})
