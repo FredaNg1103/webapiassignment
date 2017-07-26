@@ -14,13 +14,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  
 }
 
-<<<<<<< HEAD
-=======
 
   
 
->>>>>>> 60b4430a9d6501c1e77cd0b19be15fd9e4636752
