@@ -1,0 +1,30 @@
+{
+
+  "manifest_version": 2,
+  "name": "To Do List",
+  "version": "1.1",
+
+  "description": "Allows the user to make listing of items that need to be done by clicking a button and entering text into the resulting popup. The notes are saved in storage. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#quicknote",
+  "icons": {
+    "48": "icons/todolist.png"
+  },
+
+  "permissions": [
+    "storage"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+     "32" : "icons/todolist.png"
+    },
+    "default_title": "To Do List ",
+    "default_popup": "popup/todolist.html"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "quicknote-example@mozilla.org"
+    }
+  }
+
+}
